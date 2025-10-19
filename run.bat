@@ -1,5 +1,5 @@
 @echo off
-title bot-name Bot by @MeoMunDep
+title Meganet Bot by @MeoMunDep
 color 0A
 
 cd %~dp0
