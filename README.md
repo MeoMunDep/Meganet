@@ -87,7 +87,6 @@ docker run -d --name meganet-container -v $(pwd)/logs:/app/logs meganet-image
 | **Parameter Name**            | **Type**           | **Default / Current** | **Description**                                         |
 | ----------------------------- | ------------------ | --------------------- | ------------------------------------------------------- |
 | `delayEachAccount`            | `[number, number]` | `[1, 2]`              | Random delay range (in seconds) between accounts        |
-| `timeToRestartAllAccounts`    | `number`           | `300`                 | Time (in seconds) before restarting all accounts        |
 | `howManyAccountsRunInOneTime` | `number`           | `1`                   | Number of accounts to run in parallel                   |
 | `doTasks`                     | `boolean`          | `false`               | Whether to perform main tasks                           |
 | `referralCodes`               | `string[]`         | `["BG5UKD"]`          | Optional referral codes                                 |
@@ -98,7 +97,7 @@ docker run -d --name meganet-container -v $(pwd)/logs:/app/logs meganet-image
 </details>
 
 <details>
-<summary><strong>💼 2. <code>privateKeys.txt</code> - Wallet List</strong></summary>
+<summary><strong>💼 1. <code>privateKeys.txt</code> - Wallet List</strong></summary>
 
 📥 [Generate wallets here](https://github.com/MeoMunDep/Automatic-Ultimate-Create-Wallets-for-Airdrop)
 
@@ -111,7 +110,7 @@ docker run -d --name meganet-container -v $(pwd)/logs:/app/logs meganet-image
 </details>
 
 <details>
-<summary><strong>🌐 3. <code>proxies.txt</code> - Proxy List</strong></summary>
+<summary><strong>🌐 2. <code>proxies.txt</code> - Proxy List</strong></summary>
 
 📥 [Free proxy from Webshare](https://www.webshare.io/?referral_code=4l5kb3glsce7)
 
