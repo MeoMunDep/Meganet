@@ -1,1 +1,9 @@
-
+{
+  "doTasks": false,
+  "pingInterval": 15000,
+  "saveNewWallets": true,
+  "delayEachAccount": [1, 2],
+  "referralCodes": ["BG5UKD"],
+  "howManyNewWalletsToCreate": 100,
+  "howManyAccountsRunInOneTime": 1
+}
