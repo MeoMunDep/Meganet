@@ -1,1 +1,14 @@
+version: '3.8'
 
+services:
+  bot-name:
+    build:
+      context: .
+    container_name: meganet
+    restart: unless-stopped
+    volumes:
+      - .:/app
+    environment:
+      - NODE_ENV=production
+    stdin_open: true
+    tty: true
